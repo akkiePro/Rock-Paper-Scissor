@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Rock-Paper-Scissor</title>
+</head>
+<body>
+    <header>
+        <div class="heading">
+            <span><h1>Welcome to Rock, Paper and Scissor</h1></span>
+        </div>
+    </header>
+
+    <main>
+        <input id="userInput" type="text" placeholder="Choose   Rock / Paper / Scissor   OR   R / P / S" />
+    </main>
+
+    <footer>
+        <div id="resultDiv" style="display: none;">
+            <h2>Result:</h2>
+            <h3 id="you">You choose: <span id="youSpan">You</span></h3>
+            <h3 id="computer">Computer choose: <span id="compSpan">comp</span></h3>
+            <h3 id="result">Result</h3>
+        </div>
+        <button id="myButton" onclick="predict()">Enter</button>
+    </footer>
+    
+    <script src="/script.js"></script>
+</body>
+</html>
